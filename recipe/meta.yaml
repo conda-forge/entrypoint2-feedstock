@@ -1,5 +1,5 @@
 {% set name = "entrypoint2" %}
-{% set version = "1.0" %}
+{% set version = "1.1" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/entrypoint2-{{ version }}.tar.gz
-  sha256: 67e906f6ad958d83f48b4edec28d7dd82670e9261988f6b4a6b63abc9fb3be56
+  sha256: fc0b7fe7b21acdab47a585ab9407ca7e5c4f96cb6888575db6b0ceb91f0e105a
 
 build:
   number: 0
